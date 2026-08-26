@@ -4,3 +4,6 @@ let name  = "dev"
 let age = 18
 let isLoggedIn = false
 
+console.log(typeof name);
+console.log(typeof null);//object
+console.log(typeof undefined);//undefined 
