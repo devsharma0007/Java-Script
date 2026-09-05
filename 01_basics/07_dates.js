@@ -1,15 +1,22 @@
-let myDate = new Date();
+// let myDate = new Date();
 
-console.log(myDate.toString());
-console.log(myDate.toDateString());
-console.log(myDate.toLocalString());
-console.log(typeof myDate);
+// console.log(myDate);
+// console.log(myDate.toDateString());
+// console.log(myDate.toJSON);
+// console.log(myDate.toLocaleDateString());
+// console.log(myDate.toLocaleString());
+// console.log(typeof  myDate);
+
+// let myCreateDate = new Date(2026,8,5);
+// console.log(myCreateDate.toDateString());
+ 
+console.log(Math.floor(Date.now()/1000));
 
 
-let myCreatedDate = new Date(2023,0,23);
+let newDate = new Date();
+console.log(newDate.getFullYear());
+console.log(newDate.getDay());
 
-console.log(myCreatedDate.toLocaleString());
-
-
-
-
+newDate.toLocaleString('default',{
+    weekday : "long"
+})
