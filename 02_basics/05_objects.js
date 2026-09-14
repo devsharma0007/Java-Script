@@ -13,7 +13,6 @@ console.log(instructor);
 //     "coursename" : "Java-Script",
 //     "price" : "1000"
 // }
-
 [
     {},
     {},
